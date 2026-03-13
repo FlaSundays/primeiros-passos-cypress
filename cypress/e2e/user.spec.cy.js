@@ -34,7 +34,7 @@ describe('Orange HRM Tests', () => {
     cy.get(selectorsList.genericField).first().type('{selectall}2026-03-09', { force: true })
     cy.get('body').click(0,0)
     cy.get(selectorsList.submitButton).eq(0).click()
-   
+    
 
     Cypress.on('uncaught:exception', () => false)
   })
