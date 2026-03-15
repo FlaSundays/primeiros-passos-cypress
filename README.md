@@ -1,80 +1,79 @@
-# "My Cypress Automation"
+# My Cypress Automation
 
-# Cypress First Steps
+# Primeiros Passos com Cypress
 
-This project contains automated tests created with **Cypress**, developed to practice end-to-end testing for web applications.
+Este projeto contém testes automatizados utilizando **Cypress**, com o objetivo de praticar automação de testes end-to-end em aplicações web.
 
-## 📋 About the Project
+## 📋 Sobre o projeto
 
-This repository was created to practice **Quality Assurance (QA)** concepts and **test automation** using Cypress.
+Este repositório foi criado para praticar conceitos de **Quality Assurance (QA)** e **automação de testes** utilizando Cypress.
 
-The tests simulate real user scenarios to verify that application features are working correctly.
+Os testes simulam cenários reais de uso da aplicação, verificando se as funcionalidades estão funcionando corretamente.
 
-## 🚀 Technologies Used
+## 🚀 Tecnologias utilizadas
 
 * JavaScript
 * Node.js
 * Cypress
-* Git and GitHub
+* Git e GitHub
 
-## 📂 Project Structure
+## 📂 Estrutura do projeto
 
 ```
 cypress/
- ├── e2e            # Automated test files
- ├── fixtures       # Test data
- ├── support        # Custom commands and configurations
+ ├── e2e            # Testes automatizados
+ ├── fixtures       # Dados utilizados nos testes
+ ├── support        # Configurações e comandos customizados
 ```
 
-Main files:
+Arquivos principais:
 
-* `cypress.config.js` → Cypress configuration
-* `package.json` → Project dependencies
+* `cypress.config.js` → Configuração do Cypress
+* `package.json` → Dependências do projeto
 
-## ⚙️ Installation
+## ⚙️ Instalação do projeto
 
-Clone the repository:
+Clone o repositório:
 
 ```
-git clone <repository-url>
+git clone <url-do-repositorio>
 ```
 
-Navigate to the project folder:
+Entre na pasta do projeto:
 
 ```
 cd primeiros-passos-cypress
 ```
 
-Install the dependencies:
+Instale as dependências:
 
 ```
 npm install
 ```
 
-## ▶️ Running the Tests
+## ▶️ Executando os testes
 
-Open Cypress in interactive mode:
+Para abrir o Cypress em modo interativo:
 
 ```
 npx cypress open
 ```
 
-Run tests in headless mode:
+Para executar os testes no terminal:
 
 ```
 npx cypress run
 ```
 
-## 🎯 Learning Goals
+## 🎯 Objetivo de aprendizado
 
-This project aims to practice:
+Este projeto tem como objetivo praticar:
 
-* End-to-end test automation
-* Writing test scenarios
-* Organizing automated tests with Cypress
-* QA best practices
+* Automação de testes end-to-end
+* Escrita de cenários de teste
+* Organização de testes com Cypress
+* Boas práticas de QA
 
-## 👨‍💻 Author
+## 👨‍💻 Autor
 
-Project developed for learning purposes in **Quality Assurance (QA)** and **Test Automation**.
-
+Projeto desenvolvido para fins de estudo em **Quality Assurance (QA)**.
